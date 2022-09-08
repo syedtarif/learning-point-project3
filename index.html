@@ -9,9 +9,17 @@
     <!-- css link  -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- google fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+
     <!-- bootstrap link  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
     ">
+
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/bce9cdbfc7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -286,8 +294,139 @@
             </div>
         </section>
         <!-- Register part end  -->
+
+        <!-- ask question part start -->
+        <section class="container pb-5">
+            <div class="text-center">
+                <h1 class="display-4 fw-bold">Frequently Asked Questions</h1>
+                <p>here is some questions which is most important for a web developer,<br> so let's read these section
+                </p>
+            </div>
+            <div class="w-75 mx-auto mt-3 mb-5">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold fs-4" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the difference between css grid and flexbox
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The basic difference between css grid and flexbox layout is that flexbox designed our
+                                layout in one dimension way like that worked in a row or a column and grid is designed
+                                our layout in two-dimensional way like - rows, and columns at the same time.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bold fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Which is best between Bootstrap and Tailwind
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Bootstrap is much larger than Tailwind and requires multiple files to access its full
+                                functionality. Because of this, using Bootstrap means a significantly larger file size
+                                than Tailwind. Bootstrap also offers mobile-first, responsive components pre-styled to
+                                create flawless website pages quickly.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bold fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                what is css box model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The CSS box model is a container that contains multiple properties including borders,
+                                margin, padding, and the content itself. It is used to create the design and layout of
+                                web pages. It can be used as a toolkit for customizing the layout of different elements.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-bold fs-4" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                What is a semantic tag in HTML?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Semantic HTML elements are those that clearly describe their meaning in a human- and
+                                machine-readable way. Elements such as header, footer and article are all considered
+                                semantic because they accurately describe the purpose of the element and the type of
+                                content that is inside them.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ask question part end -->
+
+        <!-- sponsors part start  -->
+        <section class="container d-md-none d-none d-lg-block">
+            <h1 class="display-4 fw-bold text-center mt-5">Trusted By Over 800+ Companies</h1>
+            <div class="d-flex justify-content-around align-items-center my-5 ">
+                <div>
+                    <img src="/images/company/company-1.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/company/company-2.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/company/company-3.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/company/company-4.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/company/company-5.png" alt="">
+                </div>
+                <div>
+                    <img src="/images/company/company-6.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- sponsors part end  -->
     </main>
     <!-- main part end  -->
+
+    <!-- footer part start  -->
+    <footer class="footer-part bg-dark text-white d-flex justify-content-center align-items-center">
+        <div class="">
+            <div class="text-center">
+                <h1 class="display-4 fw-bold  mt-5">Learning Point</h1>
+                <p>
+                    office 42, Badsha Building, Muscat City,
+                </p>
+                <p>Privacy Policy | Terms of use</p>
+            </div>
+            <div class=" fs-1">
+                <div class="d-flex justify-content-center">
+                    <div><i class="fa-brands fa-facebook me-4"></i></div>
+                    <div><i class="fa-brands fa-twitter me-4"></i></div>
+                    <div><i class="fa-brands fa-instagram me-4"></i></div>
+                    <div><i class="fa-brands fa-linkedin"></i></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end  -->
 
 
     <!-- bootstrap js file link -->

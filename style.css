@@ -1,5 +1,15 @@
+/* h1 font style */
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* register part style  */
 .register-part {
     height: 300px;
     margin: 130px 0 100px 0;
+}
+
+/* footer part style */
+.footer-part {
+    height: 400px;
 }
